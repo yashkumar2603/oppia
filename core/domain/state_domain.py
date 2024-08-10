@@ -2695,7 +2695,6 @@ class Outcome(translation_domain.BaseTranslatableObject):
                 outcome.
         """
         # Id of the destination state.
-        # TODO(#20411): Check that this state actually exists.
         self.dest = dest
         # An optional destination state to redirect the learner to
         # strengthen their concepts corresponding to a particular card.
